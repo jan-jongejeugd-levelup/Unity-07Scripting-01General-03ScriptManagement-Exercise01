@@ -7,7 +7,7 @@ public class ExecutionOrderSample1 : MonoBehaviour
 
     private int _randomValue;
 
-    private void Awake()
+    private void Start()
     {
         _sample2 = FindObjectOfType<ExecutionOrderSample2>();
 
